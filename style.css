@@ -1,0 +1,46 @@
+body {
+  background-image: url(https://media.istockphoto.com/id/1095371318/pt/foto/part-of-the-wall-covered-with-love-messages-in-juliet-house-verona-italy.jpg?s=1024x1024&w=is&k=20&c=xrp-geNupN8dclbR2PJ_kvoKUbTYbeMz4zyDppxAAZQ=);
+  height: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.container {
+  background-color: rgba(209, 151, 85, 0.8);
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+
+}
+
+h1 {
+  background-color: rgba(216, 156, 87, 0.9);
+  font-size: 40px;
+  padding: 15px;
+  color: rgb(202, 28, 130)
+}
+
+button {
+  background-color: rgb(218, 154, 186);
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: rgb(218, 154, 186);
+}
+
+.encode {
+  font-size: 20px;
+  color: rgb(0, 0, 0)
+}
+
+.decode {
+  font-size: 20px;
+  color: rgb(0, 0, 0)
+}
+
+.button {
+  background-color: rgb(218, 154, 186);
+  border-color: rgb(218, 154, 186);
+  border-radius: 10px;
+  font-size: 18px;
+}
