@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Cartas para Julieta</h1>
-    </div>
-    <script src="index.js" type="module"></script>
 
-    <form class= inicial>
-      <label for="letter"> Escreva sua carta aqui e aguarde pois alguma das secretarias de Julieta irá te responder!</label><br></br>
-      <textarea id="letter" name="letter"> </textarea>
-      <br>
-      <button type= "button"> Codificar sua carta</button>
-      <br>
-      <textarea id="codedletter" name="codedletter"> </textarea>
-      <br>
-      <button type= "button"> Descodificar sua carta</button>
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="root">
+    <h1>Mensagens para Julieta</h1>
+  </div>
+  <script src="index.js" type="module"></script>
+
+  <div class="container">
+
+    <form class="deslocamento">
+      <input type="number" class="inputDesloc" id="deslocamento" min="1" max="30">
     </form>
-    
-  </body>
+
+    <form class="encode">
+      <label for="letter">Escreva aqui sua mensagem para ser codificada!</label><br>
+      <textarea id="letter" name="letter"></textarea>
+      <br>
+      <button id="button-encode" type="button">Codificar sua carta</button>
+    </form>
+
+    <form class="decode">
+      <label for="letter-decode">Se quiser decodifica-la clique no botão!</label>
+      <br>
+      <textarea id="codedletter" name="codedletter"></textarea>
+      <br>
+      <button id="button-decode" type="button">Decodificar sua carta</button>
+      <br>
+      <textarea id="decodedletter" name="decodedletter"></textarea>
+      <br>
+
+      <input type="button" class="button" value="Limpar" onclick="window.location.reload()" />
+    </form>
+  </div>
+
+</body>
+
 </html>
